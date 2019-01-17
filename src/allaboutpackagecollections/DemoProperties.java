@@ -45,6 +45,8 @@ public class DemoProperties {
 			System.out.println(prop.getProperty("null")); // Null Seems to be allowed
 			
 			System.out.println("-----Reading using a foreach loop-----");
+			
+			@SuppressWarnings("rawtypes")
 			Set s = prop.keySet();
 			for (Object obj : s) {
 				System.out.println(prop.getProperty((String) obj));
