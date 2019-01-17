@@ -12,6 +12,7 @@ import java.util.TreeSet;
 
 public class SortingHashMap {
 
+	@SuppressWarnings({ "rawtypes", "unchecked" })
 	public static void main(String[] args) {
 
 		HashMap ingredients = new HashMap();
